@@ -8,17 +8,15 @@ header {
     background-color: #333333;
     position: fixed;
     width: 100%;
-    z-index: 1;
-    top: 0%;
-    left: 0%;
+    overflow: hidden;
 }
 
-nav {
-    margin: 0;
-    padding: 20px 0;
+div.navLeft {
+    width: 300px;
+    float: left;
 }
-  
-nav li {
+
+div.navRight li {
    color: #fff;
    font-family: 'Raleway', sans-serif;
    font-weight: 600;
@@ -29,23 +27,26 @@ nav li {
    padding-right: 50px;
    padding-bottom: 10px;
   }
-nav li a {
+div.navRight li a {
     text-decoration: none;
     color: white;
 }
   
-nav li img {
+div.navRight li img {
     width: 50px;
     margin-top: -20px;
 }
-
-nav li p {
+div.navRight {
+    width: 600px;
+    float: right;
+}
+/* div.navRight .logoTitle {
     font-family: 'Satisfy', cursive;
     color: white;
     font-size: 23px;
     margin-top: -8px;
     margin-left: -80px
-}
+} */
 /* copy header end */
 
 main {
