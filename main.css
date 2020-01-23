@@ -204,6 +204,57 @@ main {
     margin-left: 25px;
 }
 
+/* detailProduct */
+.grid-container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.grid-container img{
+    width: 200px;
+}
+.grid-item-left{
+    float: left;
+    width: 20%;
+}
+.grid-item-right{
+    float: right;
+    width: 80%;
+}
+.warnaHarga{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+.grid-information{
+    width: 80%;
+    margin: auto;
+}
+#buyNow, #addToCart{
+    float: right;
+}
+a.buttonProduk{
+    /* width: 50px; */
+    padding: 0.5px 10px;
+    background: green;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: none;
+    margin-right: 10px;
+}
+a.buttonProduk p{
+    color: white;
+}
+
+.sectionCart{
+    width: 80%;
+    margin: 15px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
 .food {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -384,44 +435,23 @@ footer img {
     padding-bottom: 50px;;
 }
 .title{
-    padding-top: 140px;
+    padding-top: 100px;
     text-align: center;
+
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .grid-item1 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    font-size: 20px;
-    text-align: left;
-  }
+
 
   .iphone img {
     width: 350px;
 }
 
 table.center {
-    width:70%; 
-    margin-left:15%; 
-    margin-right:15%;
-    margin-bottom: 7%;
-  }
-
+    width: 100%; 
+}
+table img {
+    width: 150px;
+}
 table, th, td{
     
     border: 1px solid black;
