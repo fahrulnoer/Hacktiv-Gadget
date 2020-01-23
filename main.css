@@ -111,7 +111,7 @@ main {
     margin-left: -10px;
     margin-right: -10px;
     background-image:
-    linear-gradient(to left, rgba(0, 0, 0, 2git), rgba(255, 255, 255, 0.5)),
+    linear-gradient(to left, rgba(0, 0, 0, 2), rgba(255, 255, 255, 0.5)),
     url("photo-1413708617479-50918bc877eb.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
