@@ -1,2 +1,0 @@
-# Hacktiv-Gadget
-E-commerce
