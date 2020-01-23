@@ -463,6 +463,25 @@ th, td{
     padding: 15px;
 }
 
+#daftar{
+    background-color:orange;
+    width: 80px;
+    height:40px;
+    text-align: center;
+}
+#email{
+    background-color: red;
+    width: 150px;
+    height:30px;
+    text-align: center;
+}
+#facebook{
+    background-color: blue;
+    width: 80px;
+    height:30px;
+    text-align: center;
+}
+
 .kotak_login{
 	width: 350px;
 	background: white;
