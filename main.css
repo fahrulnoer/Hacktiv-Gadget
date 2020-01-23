@@ -274,3 +274,15 @@ footer ul {
 footer img {
     width: 25px;
 }
+
+.gridform{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 50px;;
+}
+.title{
+    padding-top: 140px;
+    text-align: center;
+}
