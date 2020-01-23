@@ -287,3 +287,21 @@ footer img {
     padding-top: 140px;
     text-align: center;
 }
+
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    margin-bottom: 7%;
+  }
+
+table, th, td{
+    
+    border: 1px solid black;
+    border-collapse: collapse; 
+    position: center;
+}
+
+th, td{
+    padding: 15px;
+}
