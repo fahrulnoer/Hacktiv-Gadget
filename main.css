@@ -115,7 +115,7 @@ main {
     margin-right: -10px;
     background-image:
     linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
-    url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    url("photo-1413708617479-50918bc877eb.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -292,4 +292,16 @@ footer ul {
 
 footer img {
     width: 25px;
+}
+
+.gridform{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 50px;;
+}
+.title{
+    padding-top: 140px;
+    text-align: center;
 }
