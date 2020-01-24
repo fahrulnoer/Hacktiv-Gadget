@@ -483,8 +483,8 @@ th, td{
 	width: 350px;
 	background: white;
 	/*meletakkan form ke tengah*/
-	margin: 80px auto;
-	padding: 30px 20px;
+    margin: 20px auto;
+    margin-bottom: 200px;
 }
  
 .form_login{
